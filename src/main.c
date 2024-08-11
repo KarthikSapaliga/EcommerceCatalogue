@@ -45,7 +45,7 @@ int home(){
     wattroff(mainScr, COLOR_PAIR(BLUE_TEXT_COLOR));
     
     wattron(mainScr, COLOR_PAIR(TITLE_COLOR));
-    fancyTextGenerate(mainScr, 3, (WIDTH-18*3+2)/2, "ECOMMERCE CATLOGUE");
+    fancyTextGenerate(mainScr, 3, (WIDTH-17*3+2)/2, "ECOMMERCE CATALOG");
     wattroff(mainScr, COLOR_PAIR(TITLE_COLOR));
     wrefresh(mainScr);
 
