@@ -48,22 +48,6 @@ The **Ecommerce Catalog** is a terminal-based application designed for managing 
 ⚙️ Makefile
 📝 README.md
 ```
-## Installation
 
-1. Clone the repository:
-    ```bash
-    https://github.com/KarthikSapaliga/EcommerceCatalogue.git
-    cd EcommerceCatalogue
-    ```
-
-2. Build the project:
-    ```bash
-    make app
-    ```
-
-3. Run the application:
-    ```bash
-    ./app
-    ```
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request with any improvements or new features.
