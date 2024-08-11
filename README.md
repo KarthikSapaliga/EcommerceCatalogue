@@ -21,6 +21,7 @@ The **Ecommerce Catalog** is a terminal-based application designed for managing 
 - **MySQL Database:** Stores and manages product data.
 
 ## 🗂️ Project Structure
+```
 📂 include
     ├── auth.h
     ├── buyer.h
@@ -46,21 +47,21 @@ The **Ecommerce Catalog** is a terminal-based application designed for managing 
     └── user.c
 ⚙️ Makefile
 📝 README.md
-
+```
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ecommerce-catalog.git
-    cd ecommerce-catalog
+    https://github.com/KarthikSapaliga/EcommerceCatalogue.git
+    cd EcommerceCatalogue
     ```
 
 2. Build the project:
     ```bash
-    make
+    make app
     ```
 
 3. Run the application:
     ```bash
-    ./ecommerce-catalog
+    ./app
     ```
