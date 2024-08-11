@@ -1,4 +1,4 @@
-# ECOMMERCE CATLOGUE
+# ECOMMERCE CATALOG
 
 [![Watch the video](https://github.com/KarthikSapaliga/EcommerceCatalogue/blob/main/img/ecommerce.png)](https://www.youtube.com/watch?v=O3VT125Swp8&t=1s)
 
@@ -20,3 +20,47 @@ The **Ecommerce Catalog** is a terminal-based application designed for managing 
 - **ncurses Library:** Provides a smooth and responsive user interface within the terminal.
 - **MySQL Database:** Stores and manages product data.
 
+## 🗂️ Project Structure
+📂 include
+    ├── auth.h
+    ├── buyer.h
+    ├── dbconnect.h
+    ├── defcolor.h
+    ├── fancytext.h
+    ├── menu.h
+    ├── product.h
+    ├── seller.h
+    └── user.h
+📂 res
+    └── Ecommerce.sql 
+📂 src
+    ├── auth.c
+    ├── buyer.c
+    ├── dbconnect.c
+    ├── defcolor.c
+    ├── fancytext.c
+    ├── main.c
+    ├── menu.c
+    ├── product.c
+    ├── seller.c
+    └── user.c
+⚙️ Makefile
+📝 README.md
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/ecommerce-catalog.git
+    cd ecommerce-catalog
+    ```
+
+2. Build the project:
+    ```bash
+    make
+    ```
+
+3. Run the application:
+    ```bash
+    ./ecommerce-catalog
+    ```
