@@ -65,3 +65,5 @@ The **Ecommerce Catalog** is a terminal-based application designed for managing 
     ```bash
     ./app
     ```
+## 🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request with any improvements or new features.
