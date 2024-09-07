@@ -49,5 +49,18 @@ The **Ecommerce Catalog** is a terminal-based application designed for managing 
 📝 README.md
 ```
 
+## MySQL Data Import
+### Create a user
+```
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON Ecommerce.* TO 'username'@'localhost';
+FLUSH PRIVILEGES;
+```
+### Import the data
+```
+cd res/
+mysql -u username -p Ecommerce < Ecommerce.sql
+```
+
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request with any improvements or new features.
